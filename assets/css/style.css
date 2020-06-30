@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  position: relative;
+}
+
+.f1 {
+  font-size: 3rem;
+}
+
+.f2 {
+  font-size: 2.5rem;
+}
+
+.f3 {
+  font-size: 2rem;
+}
+
+.f4 {
+  font-size: 1.5rem;
+}
+
+.f5 {
+  font-size: 1rem;
+}
+
+.f6 {
+  font-size: 0.75rem;
+}
+
+.fw1 {
+  font-weight: 100;
+}
+
+.fw2 {
+  font-weight: 200;
+}
+
+.fw3 {
+  font-weight: 400;
+}
+
+.fw4 {
+  font-weight: 500;
+}
+
+.fw5 {
+  font-weight: 700;
+}
+
+.fw6 {
+  font-weight: 900;
+}
+
+.cart-button {
+  border-radius: 50%;
+  border: none;
+  background: black;
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  line-height: 1.25rem;
+}
+.cart-button-black {
+  background: black;
+  color: white;
+}
+.cart-button-white {
+  background: white;
+  color: black;
+}
+
+.navbar-container {
+  width: 100%;
+  padding: 0 5%;
+}
+
+.greats-btn {
+  padding: 1em 5em;
+  font-size: 1.2em;
+}
+.greats-btn-black {
+  background: black;
+  color: white;
+  transition: 0.25s ease all;
+}
+.greats-btn-black:hover {
+  background: white;
+  color: black;
+}
+.greats-btn-white {
+  background: white;
+  color: black;
+  transition: 0.25s ease all;
+}
+.greats-btn-white:hover {
+  background: black;
+  color: white;
+}
+
+.overlay {
+  background: rgba(20, 20, 21, 0.3);
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  position: relative;
+  height: 75vh;
+  background: grey;
+  background: url("https://cdn.shopify.com/s/files/1/0238/2821/files/New_Site_Desktop_HP_Banner_3_375x.jpg?v=1593452376");
+  background-repeat: no-repeat;
+  background-size: 180rem;
+  background-position-y: -20rem;
+  background-position-x: -50rem;
+  background-attachment: fixed;
+}
+header .hero {
+  bottom: 0;
+  width: 100%;
+}
+header .hero h1 {
+  font-size: 4.5rem;
+}
+
+section {
+  padding: 2rem;
+}
+
+.carousel-control-next-icon {
+  background: url("../img/next-previous.svg");
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.carousel-control-prev-icon {
+  background: url("../img/next-previous.svg");
+  transform: rotate(180deg);
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+#scroll-btn {
+  width: 2rem;
+}
+
+#scroll-btn-container {
+  right: 0;
+  position: absolute;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+#pills-tab li .nav-link {
+  color: black !important;
+  background: white;
+}
+
+#pills-tab li .active {
+  background: white;
+  border-bottom: solid 2px black;
+  border-radius: 0;
+}
+
+#btm-line-btn {
+  border: none;
+  background: white;
+  border-bottom: solid 2px black;
+  border-radius: 0;
+}
+
+.fixed-sidebar {
+  transform: rotate(-90deg);
+  position: fixed;
+  z-index: 9999;
+  background: black;
+  top: 22rem;
+  left: -45px;
+  padding: 1rem 2rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+  color: white;
+  transition: 0.25s ease left;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.fixed-sidebar:hover {
+  left: -35px;
+}
+
+.horizontal-scroll-b {
+  overflow: auto;
+  width: 100%;
+  white-space: nowrap;
+  margin-top: 2rem;
+}
+.horizontal-scroll-b::-webkit-scrollbar {
+  width: 0rem;
+  height: 0rem;
+}
+.horizontal-scroll-b::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 2rem;
+}
+.horizontal-scroll-b::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 2rem;
+  margin: 0 6rem;
+}
+.horizontal-scroll-b .scroll-items {
+  width: 20rem;
+  height: 20rem;
+  display: inline-block;
+}
+.horizontal-scroll-b .scroll-items:first-child {
+  margin-left: 0rem !important;
+}
+
+.horizontal-scroll {
+  overflow: auto;
+  width: 100%;
+  white-space: nowrap;
+  padding-bottom: 5rem;
+}
+.horizontal-scroll::-webkit-scrollbar {
+  width: 1rem;
+  height: 0.75rem;
+}
+.horizontal-scroll::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 2rem;
+}
+.horizontal-scroll::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 2rem;
+  margin: 0 6rem;
+}
+
+.scroll-items {
+  width: 40rem;
+  height: 25rem;
+  display: inline-block;
+}
+.scroll-items:first-child {
+  margin-left: 5rem !important;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+  height: 2rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 2rem;
+}
+
+::-webkit-scrollbar-track {
+  background: grey;
+  border-radius: 2rem;
+}
+
+.img-cover {
+  object-fit: cover;
+  object-position: center;
+}
+
+#wrap {
+  white-space: normal !important;
+}
+
+@media (max-width: 768px) {
+  .horizontal-scroll::-webkit-scrollbar-track {
+    margin: 0 1rem;
+  }
+
+  .scroll-items:first-child {
+    margin-left: 0rem !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
